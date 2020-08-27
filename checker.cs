@@ -3,7 +3,7 @@ using System.Diagnostics;
 
 class Checker
 {
-    static bool vitalsAreOk(float bpm, float spo2, float respRate) {
+    public static bool vitalsAreOk(float bpm, float spo2, float respRate) {
         if(bpm < 70 || bpm > 150) {
             return false;
         } else if(spo2 < 90) {
@@ -12,7 +12,5 @@ class Checker
             return false;
         }
         return true;
-    }
-
-    
+    }    
 }
