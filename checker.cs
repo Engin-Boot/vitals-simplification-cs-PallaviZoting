@@ -1,8 +1,9 @@
 using System;
 using System.Diagnostics;
 using static VitalChecker;
+
 namespace CheckVital
-    
+{    
 class Checker
 {
     static int Main() {
@@ -11,4 +12,5 @@ class Checker
         Console.WriteLine("All ok");
         return 0;
     }
+}
 }
