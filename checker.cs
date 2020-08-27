@@ -1,8 +1,8 @@
 using System;
 using System.Diagnostics;
-using static Checker;
+using static VitalChecker;
 
-class VitalCheckerMain
+class Checker
 {
     static void ExpectTrue(bool expression) {
         if(!expression) {
