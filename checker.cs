@@ -1,6 +1,5 @@
 using System;
 using System.Diagnostics;
-using static VitalChecker;
 
 class Checker
 {
@@ -23,4 +22,3 @@ class Checker
         return 0;
     }
 }
-
