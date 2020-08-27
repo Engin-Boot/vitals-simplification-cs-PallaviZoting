@@ -1,6 +1,6 @@
 using System;
 using System.Diagnostics;
-using VitalChecker
+using VitalChecker;
 
 class Checker
 {
