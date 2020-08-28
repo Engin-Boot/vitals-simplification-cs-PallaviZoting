@@ -6,7 +6,7 @@ namespace Vitals
    class VitalChecker
    {
       public static bool vitalsAreOk(float bpm, float spo2, float respRate) {
-      if (RespRateChecker.respRateVitalsareOk(respRate) && Spo2Checker.spo2VitalsareOk(spo2) && BmpChecker.bmpVitalsareOk(bmp))
+      if (RespRateChecker.respRateVitalsAreOk(respRate) && Spo2Checker.spo2VitalsAreOk(spo2) && BmpChecker.bmpVitalsAreOk(bmp))
       {
         return true;
       }
