@@ -4,7 +4,7 @@ using System.Diagnostics;
 namespace Vitals
 {
 class ResultExpect
-{
+ {
     public static void ExpectTrue(bool expression) {
         if(!expression) {
             Console.WriteLine("Expected true, but got false");
@@ -17,5 +17,5 @@ class ResultExpect
             Environment.Exit(1);
         }
     }
-}
+ }
 }
