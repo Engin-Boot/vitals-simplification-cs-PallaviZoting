@@ -9,7 +9,7 @@ namespace Vitals
       {
          bool vital1 = RespRateChecker.respRatevitalsAreOk(respRate);
          bool vital2 = Spo2Checker.spo2vitalsAreOk(spo2);
-         bool vital3 = BmpChecker.bmpVitalsAreOk(bpm));
+         bool vital3 = BmpChecker.bmpVitalsAreOk(bpm);
          bool vitalcheck = vital1 && vital2 && vital3;
          return vitalcheck;
       }
