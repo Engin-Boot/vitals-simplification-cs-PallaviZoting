@@ -4,6 +4,7 @@
     <Compile Include="VitalChecker.cs"/>
     <Compile Include="ResultExpect.cs"/>
     <Compile Include="RangeChecker.cs"/>
+    <Compile Include="AbnormalReading.cs"/>
   </ItemGroup>
   <Target Name="Build">
     <Csc Sources="@(Compile)"/>  
